@@ -37,5 +37,9 @@ class TestLogin():
         self.login.page_input_pwd(password)
         # 点击登录
         self.login.page_click_login_btn()
+
     def test_address(self):
         print("testaddress被执行！")
+
+    def test002(self):
+        print("test002被执行")
